@@ -1,0 +1,27 @@
+[
+    {
+        "model": "quiz.question",
+        "pk": 1,
+        "fields": {
+            "text": "What is the capital of France?",
+            "option_a": "Berlin",
+            "option_b": "Madrid",
+            "option_c": "Paris",
+            "option_d": "Rome",
+            "correct_option": "C"
+        }
+    },
+    {
+        "model": "quiz.question",
+        "pk": 2,
+        "fields": {
+            "text": "Which is the largest planet?",
+            "option_a": "Earth",
+            "option_b": "Mars",
+            "option_c": "Jupiter",
+            "option_d": "Saturn",
+            "correct_option": "C"
+        }
+    }
+]
+

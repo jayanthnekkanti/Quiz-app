@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('your-image-url.jpg'); /* Add background image URL here */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center; /* Position the image at the center */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 20px;
+    transition: background-color 0.5s ease;
+}
+
+body:hover {
+    background-color: #e9ecef; /* Subtle background color change on hover */
+}
+
+h1 {
+    color: #343a40;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #495057; /* Slightly darker color on hover */
+}
+
+button, a {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
